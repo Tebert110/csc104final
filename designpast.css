@@ -1,0 +1,48 @@
+body {
+    /* will be set to the body */
+     margin: auto; /* setting the outer spacing (margin) to auto */
+     background-color: brown; /* backgound set has an image */
+     height: 100px ; /* set the height of the image */
+     background-position: top; /* setting the posrition of the image in the background */
+     background-size: cover; /* setting the size of the image to a set area */
+     padding: 30px; /* setting the spacing from the egde of the screen */
+     word-spacing: normal; /*setting the spacing between the words*/
+ }
+ 
+ h1{
+     text-align: center; /* aligning the text to center of the page */
+     color: rgba(34, 238, 68, 0.614); /* setting the color of the letters */
+     font-size: 85px; /* setting the size of the font */
+     word-spacing: normal; /*setting the spacing between the words*/
+ }
+ 
+ nav {
+     text-align: center; /* setting the alinment odf the nav links */  
+ }
+ 
+ section {
+     padding: auto; /* setting the spacing */
+     font-family: 'Times New Roman', Times, serif; /* setting the style of font */
+     font-size: x-large; /* setting the size of the font */
+     color:rgb(249, 249, 248) /* setting the color of the font */
+ }
+
+ .row{
+    display: flex; /* setting the diplay of the picture to fit within the space on the screen*/
+ }
+ .column{
+    flex: 33.33%; /* setting the spaceing of the column */
+    padding: 10px; /* setting the spacing between the images */
+ }
+
+ footer{
+    padding: 10px; /* setting the spacing from the edge of the screen */
+    color: rgb(249, 249, 248); /* setting the color of the text */
+    font-family: 'Times New Roman', Times, serif; /* setting the style of the font */
+    font-size: small; /*setting the font size*/
+    text-align: center; /*setting the  alignment of the text to the page*/
+    position: bottom; /*setting the postion of the text to be on the screen*/
+    bottom: 0; /*setting the postionof the text*/
+    width: 100%; /*setting the width of the text*/
+    
+}

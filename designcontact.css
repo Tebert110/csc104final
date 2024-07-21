@@ -1,0 +1,79 @@
+body {
+    /* will be set to the body */
+     margin: auto; /* setting the outer spacing (margin) to auto */
+     background-image:url(./images/tatin1.jpg); /* backgound set has an image */
+     height: 100px ; /* set the height of the image */
+     background-position: top; /* setting the posrition of the image in the background */
+     background-size: cover; /* setting the size of the image to a set area */
+     padding: 30px; /* setting the spacing from the egde of the screen */
+     word-spacing: normal; /*setting the spacing between the words*/
+     color: red; /* setting the color for the front in the body*/
+     font-size: x-large; /*setting the font size in the boby*/
+ }
+
+ h1{
+    text-align: center; /* aligning the text to center of the page */
+    color: rgba(34, 238, 68, 0.614); /* setting the color of the letters */
+    font-size: 50px; /* setting the size of the font */
+    word-spacing: normal; /*setting the spacing between the words*/
+}
+
+nav {
+    text-align: center; /* setting the alinment odf the nav links */  
+    font-size: large; /*setting the font size for the nav*/
+}
+   
+    .container {
+        width:80%; /*setting the width of the container*/
+        max-width: 600px; /*setting the max-width of the container*/
+        padding: 50px; /*setting the padding of the container*/
+        border-radius: 8px; /*setting the border radius*/
+        margin:  auto; /*setting the margin*/
+    }
+    h2 {
+        text-align: center; /*aligning the text to center*/
+    }
+    label {
+        display: block; /*setting the display*/
+        margin-bottom: 8px; /*seting the margins*/
+        font-weight: bold;/*setting the font weight*/
+    }
+
+    input, textarea {
+        width: 100%; /*setting the width of the */
+        padding: 8px; /*setting the padding for the bordert*/
+        margin-bottom: 10px;/*setting the space on the bottom of the border*/
+        border: 1px solid #ccc; /*setting the color of the border*/
+        border-radius: 4px; /*setting the radius of the border*/
+        box-sizing: border-box; /*setting the style of border*/
+        font-size: 14px;/*setting the font size*/
+    }
+    textarea {
+        resize: vertical; /*setting the size and how it should be*/
+        min-height: 100px;/*setting the min height*/
+    }
+    button {
+        background-color: #4CAF50;/*setting the color of the button*/
+        color: white; /*setting the color of the text*/
+        padding: 10px 20px; /*setting the padding size*/
+        border: none; /*what type of border*/
+        border-radius: 4px; /*setting the size*/
+        cursor: pointer; /*what is should react to*/
+        font-size: 16px;/*setting the font size*/
+    }
+    button:hover {
+        background-color: #45a049; /*setting the backgound color*/
+    }
+
+
+ footer{
+    padding: 10px; /* setting the spacing from the edge of the screen */
+    color: rgb(249, 249, 248); /* setting the color of the text */
+    font-family: 'Times New Roman', Times, serif; /* setting the style of the font */
+    font-size: small; /*setting the font size*/
+    text-align: center; /*setting the  alignment of the text to the page*/
+    position: bottom; /*setting the postion of the text to be on the screen*/
+    bottom: 0; /*setting the postionof the text*/
+    width: 100%; /*setting the width of the text*/
+    
+}

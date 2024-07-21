@@ -1,0 +1,51 @@
+body {
+    /* will be set to the body */
+     margin: auto; /* setting the outer spacing (margin) to auto */
+     background-image:url(./images/IMG_7136.jpg); /* backgound set has an image */
+     height: 100px ; /* set the height of the image */
+     background-position: top; /* setting the posrition of the image in the background */
+     background-size: cover; /* setting the size of the image to a set area */
+     padding: 30px; /* setting the spacing from the egde of the screen */
+     word-spacing: normal; /*setting the spacing between the words*/
+ }
+ 
+ h1{
+     text-align: center; /* aligning the text to center of the page */
+     color: rgb(2, 144, 26); /* setting the color of the letters */
+     font-size: 100px; /* setting the size of the font */
+     word-spacing: normal; /*setting the spacing between the words*/
+ }
+ 
+ nav {
+     text-align: center; /* setting the alinment of the nav links */  
+ }
+
+ li{
+    font-style:italic; /*setting the style of the font that will be display*/
+    color:rgb(5, 232, 35) /*setting the color of the font*/
+ }
+
+ h2{
+    text-align: center; /* aligning the text to center of the page */
+    color: rgba(4, 252, 46, 0.994); /* setting the color of the letters */
+    font-size: 45px; /* setting the size of the font */
+ }
+ 
+ section {
+     padding: auto; /* setting the spacing */
+     font-family: 'Times New Roman', Times, serif; /* setting the style of font */
+     font-size: x-large; /* setting the size of the font */
+     color:rgb(246, 234, 200) /* setting the color of the font */
+ }
+
+ footer{
+    padding: 10px; /*setting the spacing from the edge of the screen*/
+    color: rgb(242, 246, 0); /* setting the color of the text */
+    font-family: 'Times New Roman', Times, serif; /* setting the style of the font */
+    font-size: small; /*setting the font size*/
+    text-align: center; /*setting the  alignment of the text to the page*/
+    position: bottom; /*setting the postion of the text to be on the screen*/
+    bottom: 0; /*setting the postionof the text*/
+    width: 100%; /*setting the width of the text*/
+    
+}
