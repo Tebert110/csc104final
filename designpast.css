@@ -1,7 +1,7 @@
 body {
     /* will be set to the body */
      margin: auto; /* setting the outer spacing (margin) to auto */
-     background-image:url(./images/Wood-Grain-HD-Backgrounds.jpg); /* backgound set has an image */
+     background-image:url(Wood-Grain-HD-Backgrounds.jpg); /* backgound set has an image */
      height: 100px ; /* set the height of the image */
      background-position: top; /* setting the posrition of the image in the background */
      background-size: cover; /* setting the size of the image to a set area */
