@@ -1,13 +1,17 @@
 body {
     /* will be set to the body */
-    background-color: rgb(37, 203, 4); /*setting the background color*/
+    margin: auto; /* setting the outer spacing (margin) to auto */
+	background-image:url(./images/202396-space-stars-nebula-Carina_Nebula.jpg); /* backgound set has an image */
+	height: 100px ; /* set the height of the image */
+	background-position: top; /* setting the posrition of the image in the background */
+	background-size: cover; /* setting the size of the image to a set area */
+    padding: 30px; /* setting the spacing from the egde of the screen */
     word-spacing: normal; /*setting the spacing between the words*/
-   
  }
  
  h1{
      text-align: center; /* aligning the text to center of the page */
-     color: rgba(14, 3, 115, 0.614); /* setting the color of the letters */
+     color: rgb(172, 219, 3); /* setting the color of the letters */
      font-size: 85px; /* setting the size of the font */
      word-spacing: normal; /*setting the spacing between the words*/
  }
@@ -19,13 +23,14 @@ body {
  h2{
     text-align: center; /*aligning the text to the center*/
     font-size: 35px; /*setting the size of the font*/
+    color: rgb(255, 187, 0);
  }
  
  section {
      padding: auto; /* setting the spacing */
      font-family: 'Times New Roman', Times, serif; /* setting the style of font */
      font-size: x-large; /* setting the size of the font */
-     color:rgb(249, 249, 248) /* setting the color of the font */
+     color:rgb(28, 233, 248) /* setting the color of the font */
  }
 
  .row{

@@ -1,12 +1,13 @@
 body {
     /* will be set to the body */
      margin: auto; /* setting the outer spacing (margin) to auto */
-     background-color: brown; /* backgound set has an image */
+     background-image:url(./images/Wood-Grain-HD-Backgrounds.jpg); /* backgound set has an image */
      height: 100px ; /* set the height of the image */
      background-position: top; /* setting the posrition of the image in the background */
      background-size: cover; /* setting the size of the image to a set area */
      padding: 30px; /* setting the spacing from the egde of the screen */
      word-spacing: normal; /*setting the spacing between the words*/
+
  }
  
  h1{
@@ -24,7 +25,7 @@ body {
      padding: auto; /* setting the spacing */
      font-family: 'Times New Roman', Times, serif; /* setting the style of font */
      font-size: x-large; /* setting the size of the font */
-     color:rgb(249, 249, 248) /* setting the color of the font */
+     color:rgb(211, 211, 10) /* setting the color of the font */
  }
 
  .row{
